@@ -1,0 +1,58 @@
+/* Css apply for the whole body */
+body{
+    background-color: rgb(23, 4, 41);
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+/* This is for the outer box */
+.box {
+    width: 800px;
+    margin: 30px auto;
+    color: white;
+    text-align: center;
+}
+#st{
+    background-color: rgb(9, 5, 6);
+    border-radius: 5px;
+    /* width: 100px;
+    height: ; */
+    /* border-color: chartreuse; */
+}
+
+/* This is for h1, h2, h3 tag */
+h1 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 2.6em;
+    text-transform: uppercase;
+}
+
+/* Setting the font size of second and MilliSecond Time */
+#second, #milliSec {
+    font-size: 2em;
+}
+
+/* Css on Button Start, Stop and Reset */
+button {
+    border-radius: 50px;
+    background-color: blueviolet;
+    color: white;
+    border: white;
+    border: solid 1px white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+}
+
+/* Setting hover css style on button */
+button:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: pink;
+    border: solid 1px white;
+    color: blueviolet;
+}
